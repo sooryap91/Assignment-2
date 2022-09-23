@@ -293,14 +293,14 @@ margin-left: 120px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-size: 23px;
 }
-.box1 #rem{
+/* .box1 #rem{
     color:black;
 
 }
 .box1 #emailid,#pass{
     color:black;
 
-}
+} */
     .full{
 
         background-image:url("images/backlog.png");
