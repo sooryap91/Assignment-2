@@ -1,0 +1,278 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+/* setting the logo starts */
+#logo {
+    
+    margin-left: 0 ;
+    margin-bottom: 0;
+    
+    
+}
+/* setting the logo ends */
+/* styling the navbar starts */
+.navbar
+{
+background-image: url("images/HD-wallpaper-background-bg-nature-green-texture.jpg");
+background-size:cover;
+background size: 2px;
+
+
+}
+
+
+
+.nav-item a {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-decoration: none;
+    margin-left: 100px;
+    word-spacing: 10px;
+}
+.collapse >ul>li>a:hover{
+    background-color:darkgreen;
+    color: black !important;
+}
+/* styling the navbar ends */
+/* inside starts */
+.carousel-inner > .carousel-item > img { height:410px; }
+
+
+.side_heading p
+{
+    
+font-family:cursive;
+font-size:xx-large;
+text-align:center;
+ color: red;
+}
+.side_heading 
+{
+    background-image:url("images/map.png");
+    background-position:bottom;
+}
+.side_heading > #button
+{
+margin-top: 180px;
+
+}
+.side_heading > #button1
+{
+margin-top: 180px;
+margin-left: 120px;
+}
+
+.my_login {
+    
+    height: 25em;
+    padding: 30px;
+    margin-right: 20px;
+    
+}
+.my_login h2{
+    text-align: center;
+}
+.my_login > .form-group
+ {
+    width: 400px;
+    margin-left: 450px;
+ }
+ #goto
+ {
+    float: right;
+ }
+ .new_user
+ {
+    height: 25em;
+    padding: 30px;
+    margin-right: 20px;
+    
+ }
+ .new_user > .form-group
+ {
+    width: 400px;
+    margin-left: 390px;
+    
+ }
+ .new_user h2{
+    text-align: center;
+ }
+ #goto1
+ {
+    float: right;
+ }
+ .list-group
+ {
+    word-spacing: 4px;
+ }
+ .row >.content>.list-group >a:hover{
+    background-color:yellow;
+    color: black !important;
+} 
+/* inside ends */
+/* styling the districts */
+.Thvm {
+    color:white;
+    text-decoration: none;
+    word-spacing: 7px;
+    font-size: large;
+    text-align: justify;
+    
+    
+}
+.Thvm  h2{
+    color:blueviolet;
+    text-align: center;
+
+    
+    
+}
+
+ #goto2
+{float: left;
+}
+.Ekm {
+    color:black;
+    text-decoration: none;
+    word-spacing: 7px;
+    font-size: large;
+    text-align: justify;
+    
+    
+}
+.Ekm  h2{
+    color:blueviolet;
+    text-align: center;
+
+    
+    
+}
+
+
+ #goto2
+{float: left;
+}
+#goto3
+{float: right;
+}
+.Wayanadu {
+    color:black;
+    text-decoration: none;
+    word-spacing: 7px;
+    font-size: large;
+    text-align: justify;
+    
+    
+}
+.Wayanadu h2{
+    color:blueviolet;
+    text-align: center;
+
+}
+    
+.Thrissuru
+{
+    color:black;
+    text-decoration: none;
+    word-spacing: 7px;
+    font-size: large;
+    text-align: justify;
+    
+    
+}
+.Thrissuru h2{
+    color:blueviolet;
+    text-align: center;
+}
+.Palakkad
+{
+    color:palevioletred;
+    text-decoration: none;
+    word-spacing: 7px;
+    font-size: large;
+    text-align: justify;
+    
+}
+
+
+
+.Palakkad h2{
+    color:palevioletred;
+    
+
+}
+.districts a {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:small;
+    display: inline;
+    text-decoration: none;
+    /* margin-left: 100px; */
+    
+    color: brown;
+}
+.districts a:hover{
+    background-color:crimson;
+    color: black !important;
+}
+
+.dist1
+{
+    text-align: center;
+}
+.districts #kol {
+    
+    margin-left: 20px;
+    
+}
+.districts #kas {
+    
+    margin-left: 19px;
+    
+}
+.districts #kan {
+    
+    margin-left: 15px;
+    
+}
+.districts #idu {
+    
+    margin-left: 45px;
+    
+}
+.districts #pat {
+    
+    margin-left: 0px;
+    
+}
+
+.districts #way {
+    
+    margin-left: 37px;
+    
+}
+.districts #mal {
+    
+    margin-left: 0px;
+    
+}
+.districts #tri {
+    
+    margin-left: 0px;
+    
+}
+.districts #ern {
+    
+    margin-left: 15px;
+    
+}
+.districts1 #homep
+{
+    float: right;
+}
+.districts1 #but
+{
+    margin-top: 250px;
+}
+/* styling the districts ends */
