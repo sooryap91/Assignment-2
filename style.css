@@ -276,3 +276,35 @@ margin-left: 120px;
     margin-top: 250px;
 }
 /* styling the districts ends */
+
+/* validation of login starts */
+.box1 h2{
+    color:black;
+    font-size: 35px;
+}
+.box1 #email,#password{
+    width: 300px;
+}
+.box1 {
+    /* margin-top: 50px; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 20px; */
+    width: 20%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 23px;
+}
+.box1 #rem{
+    color:black;
+
+}
+.box1 #emailid,#pass{
+    color:black;
+
+}
+    .full{
+
+        background-image:url("images/backlog.png");
+        background-size:contain;
+
+    }
+    
