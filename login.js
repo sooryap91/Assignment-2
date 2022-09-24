@@ -42,4 +42,10 @@ let error=document.getElementById("error");
                     error.innerHTML="Poor";
                     error.style.color="Red";
                         }
-                    })
+                        
+    
+           
+                    
+
+                })
+                    
