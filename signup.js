@@ -42,4 +42,4 @@ let phone_number=document.getElementById("phone_number");
                     error1.style.color="Red";
                         }
                         })
-                        //   email,password,phone_number validation ends
+                        //   email,password,phone_number validation ends here
