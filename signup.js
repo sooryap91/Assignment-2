@@ -1,13 +1,16 @@
 let email1=document.getElementById("email1");
 let password1=document.getElementById("password1");
 let error1=document.getElementById("error1");
+let phone_number=document.getElementById("phone_number");
 
     function validate1(){
     let regexp1=/^([A-Za-z0-9\.-]+)@([A-Za-z0-9\-]+).([a-z]{2,3})(.[a-z]{2,3})?$/;
     var passw1 = /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{8,}$/;
-
-        if(regexp1.test(email1.value) && (passw1.test(password1.value))) 
-        {
+    var phonepattern= /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+      
+    
+       if(regexp1.test(email1.value)&&passw1.test(password1.value)&&phonepattern.test(phone_number.value))
+         {
         error1.innerHTML="Valid";
         error1.style.color="green";
         return true;
@@ -18,6 +21,7 @@ let error1=document.getElementById("error1");
         return false;
         }
 }
+
     password1.addEventListener('input',()=>{
         if(password1.value.length >0){
             error1.style.display="block";
