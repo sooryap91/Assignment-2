@@ -7,7 +7,7 @@ let phone_number=document.getElementById("phone_number");
     let regexp1=/^([A-Za-z0-9\.-]+)@([A-Za-z0-9\-]+).([a-z]{2,3})(.[a-z]{2,3})?$/;
     var passw1 = /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{8,}$/;
     var phonepattern= /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
-      
+    //   email,password,phone_number validation starts
     
        if(regexp1.test(email1.value)&&passw1.test(password1.value)&&phonepattern.test(phone_number.value))
          {
@@ -42,4 +42,4 @@ let phone_number=document.getElementById("phone_number");
                     error1.style.color="Red";
                         }
                         })
-                    
+                        //   email,password,phone_number validation ends

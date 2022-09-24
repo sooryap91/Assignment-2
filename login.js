@@ -5,7 +5,7 @@ let error=document.getElementById("error");
     function validate(){
     let regexp=/^([A-Za-z0-9\.-]+)@([A-Za-z0-9\-]+).([a-z]{2,3})(.[a-z]{2,3})?$/;
     var passw = /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9]).{8,}$/;
-
+// email and password validation starts
         if(regexp.test(email.value) && (passw.test(password.value))) 
         {
         error.innerHTML="Valid";
@@ -48,4 +48,4 @@ let error=document.getElementById("error");
                     
 
                 })
-                    
+                // email and password validation ends
